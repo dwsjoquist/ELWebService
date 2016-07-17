@@ -37,6 +37,10 @@ import Foundation
     private var urlRequest: NSURLRequest {
         return request.urlRequestValue
     }
+
+    public var url: NSURL? {
+        return urlRequest.URL
+    }
     
     /// Dispatch queue that queues up and dispatches handler blocks
     private let handlerQueue: NSOperationQueue
