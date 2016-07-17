@@ -158,6 +158,11 @@ extension ServiceTask {
         request.formParameters = parameters
         return self
     }
+
+    public func setHTTPShouldHandleCookies(httpShouldHandleCookies: Bool) -> Self {
+        request.HTTPShouldHandleCookies = httpShouldHandleCookies
+        return self
+    }
 }
 
 // MARK: - NSURLSesssionDataTask
