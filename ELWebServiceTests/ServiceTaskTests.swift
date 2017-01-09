@@ -704,7 +704,7 @@ extension ServiceTaskTests {
         
         let recordedURLRequest = session.recordedRequests.first?.urlRequestValue
         XCTAssertNotNil(recordedURLRequest)
-        XCTAssertEqual(recordedURLRequest!.cachePolicy, NSURLRequest.CachePolicy.reloadIgnoringLocalCacheData)
+        XCTAssertEqual(recordedURLRequest!.cachePolicy, URLRequest.CachePolicy.reloadIgnoringLocalCacheData)
         
     }
     
