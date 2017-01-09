@@ -1,6 +1,31 @@
+# [4.0.3](https://github.com/Electrode-iOS/ELWebService/releases/tag/v4.0.3)
+
+- Remove `lazy` var for Carthage compatibility.
+
+# [4.0.2](https://github.com/Electrode-iOS/ELWebService/releases/tag/v4.0.2)
+
+- Update to Xcode 8.1 recommended project settings.
+
+# [4.0.0](https://github.com/Electrode-iOS/ELWebService/releases/tag/v4.0.0)
+
+- Added support for Swift 3
+
+## Breaking
+
+- API naming changes for Swift 3
+- Removed `SessionDataTaskDataSource` API
+
+# [3.3.1](https://github.com/Electrode-iOS/ELWebService/releases/tag/v3.3.1)
+
+- Merge support for PATCH HTTP requests
+
 # [3.3.0](https://github.com/Electrode-iOS/ELWebService/releases/tag/v3.3.0)
 
 - Added support for Xcode 8, Swift 2.3, and iOS SDK 10
+
+# [3.2.1](https://github.com/Electrode-iOS/ELWebService/releases/tag/v3.2.1)
+
+- Added support for PATCH HTTP requests.
 
 # [3.2.0](https://github.com/Electrode-iOS/ELWebService/releases/tag/v3.2.0)
 
